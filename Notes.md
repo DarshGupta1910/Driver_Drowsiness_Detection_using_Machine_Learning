@@ -16,6 +16,12 @@ is used to **find the files and folders whose names follow a specific pattern**.
 is used to **find the files and folders whose names follow a specific pattern**. The searching rules are similar to the Unix Shell path expansion rules.
 
 # Model Training
+
+-   **Training Dataset**: The sample of data used to fit the model.
+-   **Validation Dataset**: The sample of data used to provide an unbiased evaluation of a model fit on the training dataset while tuning model hyperparameters. The evaluation becomes more biased as skill on the validation dataset is incorporated into the model configuration.
+-   **Test Dataset**: The sample of data used to provide an unbiased evaluation of a final model fit on the training dataset.
+
+
  ### Tensorflow 
  TensorFlow is a software library or framework, designed by the Google team to implement machine learning and deep learning concepts in the easiest manner. It combines the computational algebra of optimization techniques for easy calculation of many mathematical expressions.
 -   It includes a feature of that defines, optimizes and calculates mathematical expressions easily with the help of multi-dimensional arrays called tensors.
@@ -85,4 +91,6 @@ Shear' means that the image will be distorted along an axis, mostly to create or
 ### Adam optimizer
 [tf.keras.optimizers.Adam | TensorFlow Core v2.7.0](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam)
 
+# Main 
 
+[OpenCV: Cascade Classifier](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
